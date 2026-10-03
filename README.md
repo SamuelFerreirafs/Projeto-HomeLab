@@ -42,8 +42,8 @@ Projeto pessoal de infraestrutura. Transformei um notebook antigo em um servidor
 
 ### 1. Base: acesso e rede
 
-- **SSH** para administrar o servidor sem teclado nem monitor.
-- **Tailscale** (VPN) para acessar o servidor e permitir que amigos joguem sem abrir portas no roteador.
+- **SSH** para administrar o servidor remotamente
+- **Tailscale** (VPN) para acessar o servidor e conectar via SSH pelo celular utilizando o Termius
 - **Samba** compartilhando uma pasta com o Windows, mapeada como unidade de rede.
 - **Firewall (ufw):** criei regras para a porta do Minecraft, mas o ufw ficou inativo. Descobri que o Docker publica portas direto no iptables e passa por cima do ufw, então a proteção real aqui é não expor nada na internet.
 
