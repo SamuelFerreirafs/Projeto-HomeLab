@@ -273,7 +273,6 @@ Os dois hashes foram idênticos, então o arquivo voltou do S3 sem alterações.
 - O teste de menor privilégio no IAM **não foi comprovado** (veja acima).
 - O LocalStack Hobby **não guarda dados** depois de reiniciar o container.
 - O servidor usa Wi-Fi, o que pode afetar a latência.
-- O Minecraft roda em modo offline, mitigado apenas por isolamento de rede.
 
 ## Próximos passos
 
