@@ -1,6 +1,6 @@
 # Homelab: servidor caseiro com Linux, Docker, monitoramento e laboratório de AWS
 
-Projeto pessoal de infraestrutura. Transformei um notebook antigo em um servidor Ubuntu para praticar administração de Linux, containers, monitoramento, backup e conceitos de nuvem (AWS), tudo em ambiente controlado e sem custo.
+Projeto pessoal de infraestrutura. Transformei um notebook antigo em um servidor Ubuntu para praticar administração de Linux, containers, monitoramento, backup e conceitos de nuvem AWS LocalStack, tudo em ambiente controlado e sem custo.
 
 > **Projeto de estudo.** Registro aqui o que fiz, o que testei e também o que ainda não fiz ou não consegui provar.
 
