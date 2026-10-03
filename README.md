@@ -276,13 +276,12 @@ Os dois hashes foram idênticos, então o arquivo voltou do S3 sem alterações.
 
 ## Próximos passos
 
-- [ ] Criar uma conta AWS real (MFA na conta raiz, alerta de orçamento, usuário administrador) e repetir o teste de permissões do IAM
-- [ ] Enviar o backup para um bucket S3 real, com o usuário de menor privilégio
-- [ ] Copiar os backups para outro dispositivo (segunda cópia fora do servidor)
-- [ ] Configurar alertas no Grafana (disco, temperatura, queda de energia)
-- [ ] Adicionar o cAdvisor para monitorar o uso de recursos por container
-- [ ] Testar o servidor com vários jogadores conectados
-- [ ] Subir um servidor de mídia (Jellyfin)
+-Configurar uma rede interna com IPs fixos e DHCP
+-Criar e testar diferentes sub-redes e regras de roteamento
+-Implementar VLANs para separar servidores, computadores e dispositivos
+-Configurar e testar DNS interno para os serviços do Home Lab
+-Utilizar o Wireshark para capturar e analisar o tráfego da rede
+-Monitorar tráfego, latência e disponibilidade dos dispositivos
 
 ## Segredos e este repositório
 
